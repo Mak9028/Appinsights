@@ -1,0 +1,464 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:2:1-36:12
+MERGED from [com.android.support:design:25.0.1] /home/mak/.gradle/caches/transforms-1/files-1.1/design-25.0.1.aar/5915f843b584ccc48d19f602004ecab0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08ccfe20ad9cb42f823780477a02d812/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a8a5e4d152d68bedb49e27f819b5496b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton:butterknife:8.7.0] /home/mak/.gradle/caches/transforms-1/files-1.1/butterknife-8.7.0.aar/20c658db6a36e2344a0d551d4349dd83/AndroidManifest.xml:2:1-7:12
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-mobile-client-2.6.16.aar/73b00dfa46a44d70685b2a8979dd5fca/AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:transition:25.0.1] /home/mak/.gradle/caches/transforms-1/files-1.1/transition-25.0.1.aar/fce543d0925df505e2740465f7d72ec4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.0.2.aar/1d0fdc3463ce11e387d1db670f9efbe2/AndroidManifest.xml:16:1-22:12
+MERGED from [com.google.firebase:firebase-auth-common:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.0.2.aar/b35e8cb62ec77797631425e71c3554ac/AndroidManifest.xml:16:1-22:12
+MERGED from [com.google.firebase:firebase-auth-module:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-auth-module-9.0.2.aar/be05458063780d911ad7ba64d002ffd3/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-core:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-core-9.0.2.aar/b240bdbc4d9c0b1aa8a03637d172626d/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.2.aar/6eff673454795d2a6083084b615e0f43/AndroidManifest.xml:16:1-42:12
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.0.2.aar/43ade91cb4fa25daf792973890891c46/AndroidManifest.xml:16:1-42:12
+MERGED from [com.google.android.gms:play-services-base:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-base-9.0.2.aar/189be8d51bc23e5b422d1b71b864b9f6/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:16:1-60:12
+MERGED from [com.google.firebase:firebase-common:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-common-9.0.2.aar/2150a1abec861bfd7fc9d33dc81f1088/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.0.2.aar/7ab17582614d7ba2c2fd90e14f24891d/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.0.2.aar/21980bfaab764d8de6e40053348176a0/AndroidManifest.xml:16:1-26:12
+MERGED from [com.android.support:support-v4:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/63b52c005f3f3c5984e72ab1cc3c0220/AndroidManifest.xml:17:1-31:12
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:2:1-21:80
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.6.16.aar/14a5295e1a1c5705d8a2f899e8366583/AndroidManifest.xml:2:1-10:80
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-core-2.6.16.aar/7a6f886bf5622964e7799649a57b7412/AndroidManifest.xml:2:1-4:80
+MERGED from [com.android.support:recyclerview-v7:25.0.1] /home/mak/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.0.1.aar/72da9ac415b0bd786e531df4c4471ec3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/1e500fc08893743f091bcf516f9160cd/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/1a1999c14220f404f9c5fd365099f19a/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/761f759b8458cc4103f5e0e16ad2c37f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/7ae7f2297a7e8da0a5699e63244b83d1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/e432ee1d33ead6a4278b6fc4bec5c8d1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/b9c6b770167d4c6168518cdaf2237b18/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/60dff3e19a2733def9c537e6009399ca/AndroidManifest.xml:17:1-31:12
+INJECTED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:2:1-36:12
+	package
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:2:1-36:12
+		INJECTED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:2:1-36:12
+		INJECTED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:5:5-66
+MERGED from [com.google.firebase:firebase-analytics:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.2.aar/6eff673454795d2a6083084b615e0f43/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.2.aar/6eff673454795d2a6083084b615e0f43/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.0.2.aar/43ade91cb4fa25daf792973890891c46/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.0.2.aar/43ade91cb4fa25daf792973890891c46/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:21:5-67
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:4:5-66
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:4:5-66
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.6.16.aar/14a5295e1a1c5705d8a2f899e8366583/AndroidManifest.xml:4:5-66
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.6.16.aar/14a5295e1a1c5705d8a2f899e8366583/AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:6:22-77
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:7:5-76
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:6:5-75
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:6:5-75
+	android:name
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:7:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.2.aar/6eff673454795d2a6083084b615e0f43/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.2.aar/6eff673454795d2a6083084b615e0f43/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.0.2.aar/43ade91cb4fa25daf792973890891c46/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.0.2.aar/43ade91cb4fa25daf792973890891c46/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:20:5-79
+MERGED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:20:5-79
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:5:5-78
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:5:5-78
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.6.16.aar/14a5295e1a1c5705d8a2f899e8366583/AndroidManifest.xml:5:5-78
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.6.16.aar/14a5295e1a1c5705d8a2f899e8366583/AndroidManifest.xml:5:5-78
+	android:name
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_DOWNLOAD_MANAGER
+ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:10:22-79
+application
+ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:13:5-34:19
+MERGED from [com.android.support:design:25.0.1] /home/mak/.gradle/caches/transforms-1/files-1.1/design-25.0.1.aar/5915f843b584ccc48d19f602004ecab0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:design:25.0.1] /home/mak/.gradle/caches/transforms-1/files-1.1/design-25.0.1.aar/5915f843b584ccc48d19f602004ecab0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08ccfe20ad9cb42f823780477a02d812/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08ccfe20ad9cb42f823780477a02d812/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a8a5e4d152d68bedb49e27f819b5496b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a8a5e4d152d68bedb49e27f819b5496b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:transition:25.0.1] /home/mak/.gradle/caches/transforms-1/files-1.1/transition-25.0.1.aar/fce543d0925df505e2740465f7d72ec4/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:transition:25.0.1] /home/mak/.gradle/caches/transforms-1/files-1.1/transition-25.0.1.aar/fce543d0925df505e2740465f7d72ec4/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.0.2.aar/1d0fdc3463ce11e387d1db670f9efbe2/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.0.2.aar/1d0fdc3463ce11e387d1db670f9efbe2/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth-common:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.0.2.aar/b35e8cb62ec77797631425e71c3554ac/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth-common:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.0.2.aar/b35e8cb62ec77797631425e71c3554ac/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-core:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-core-9.0.2.aar/b240bdbc4d9c0b1aa8a03637d172626d/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-core-9.0.2.aar/b240bdbc4d9c0b1aa8a03637d172626d/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.2.aar/6eff673454795d2a6083084b615e0f43/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.2.aar/6eff673454795d2a6083084b615e0f43/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.0.2.aar/43ade91cb4fa25daf792973890891c46/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.0.2.aar/43ade91cb4fa25daf792973890891c46/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.android.gms:play-services-base:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-base-9.0.2.aar/189be8d51bc23e5b422d1b71b864b9f6/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-base-9.0.2.aar/189be8d51bc23e5b422d1b71b864b9f6/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-common-9.0.2.aar/2150a1abec861bfd7fc9d33dc81f1088/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.firebase:firebase-common:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-common-9.0.2.aar/2150a1abec861bfd7fc9d33dc81f1088/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.0.2.aar/7ab17582614d7ba2c2fd90e14f24891d/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.0.2.aar/7ab17582614d7ba2c2fd90e14f24891d/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.0.2.aar/21980bfaab764d8de6e40053348176a0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.0.2.aar/21980bfaab764d8de6e40053348176a0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/63b52c005f3f3c5984e72ab1cc3c0220/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/63b52c005f3f3c5984e72ab1cc3c0220/AndroidManifest.xml:29:5-20
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:8:6-20:20
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:8:6-20:20
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.6.16.aar/14a5295e1a1c5705d8a2f899e8366583/AndroidManifest.xml:7:5-9:19
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.6.16.aar/14a5295e1a1c5705d8a2f899e8366583/AndroidManifest.xml:7:5-9:19
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/1e500fc08893743f091bcf516f9160cd/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/1e500fc08893743f091bcf516f9160cd/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/1a1999c14220f404f9c5fd365099f19a/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/1a1999c14220f404f9c5fd365099f19a/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/761f759b8458cc4103f5e0e16ad2c37f/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/761f759b8458cc4103f5e0e16ad2c37f/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/7ae7f2297a7e8da0a5699e63244b83d1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/7ae7f2297a7e8da0a5699e63244b83d1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/e432ee1d33ead6a4278b6fc4bec5c8d1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/e432ee1d33ead6a4278b6fc4bec5c8d1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/b9c6b770167d4c6168518cdaf2237b18/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/b9c6b770167d4c6168518cdaf2237b18/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/60dff3e19a2733def9c537e6009399ca/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/60dff3e19a2733def9c537e6009399ca/AndroidManifest.xml:29:5-20
+	android:supportsRtl
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:17:9-41
+	android:hardwareAccelerated
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:15:9-43
+	android:roundIcon
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:18:9-44
+	android:icon
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:16:9-39
+	android:allowBackup
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:20:9-40
+activity#com.example.alefmobitech.appinsights.AuthenticatorActivity
+ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:21:9-29:20
+	android:label
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:23:13-45
+	android:name
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:22:13-50
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:27:27-74
+activity#com.example.alefmobitech.appinsights.MainActivity
+ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:30:9-86
+	android:name
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:30:19-83
+activity#com.example.alefmobitech.appinsights.SignupActivity
+ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:31:9-88
+	android:name
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:31:19-85
+activity#com.example.alefmobitech.appinsights.User_viwe
+ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:32:9-82
+	android:name
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml:32:19-80
+uses-sdk
+INJECTED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml
+INJECTED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:25.0.1] /home/mak/.gradle/caches/transforms-1/files-1.1/design-25.0.1.aar/5915f843b584ccc48d19f602004ecab0/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.0.1] /home/mak/.gradle/caches/transforms-1/files-1.1/design-25.0.1.aar/5915f843b584ccc48d19f602004ecab0/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08ccfe20ad9cb42f823780477a02d812/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08ccfe20ad9cb42f823780477a02d812/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a8a5e4d152d68bedb49e27f819b5496b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a8a5e4d152d68bedb49e27f819b5496b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton:butterknife:8.7.0] /home/mak/.gradle/caches/transforms-1/files-1.1/butterknife-8.7.0.aar/20c658db6a36e2344a0d551d4349dd83/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.7.0] /home/mak/.gradle/caches/transforms-1/files-1.1/butterknife-8.7.0.aar/20c658db6a36e2344a0d551d4349dd83/AndroidManifest.xml:5:5-43
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-mobile-client-2.6.16.aar/73b00dfa46a44d70685b2a8979dd5fca/AndroidManifest.xml:4:5-73
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-mobile-client-2.6.16.aar/73b00dfa46a44d70685b2a8979dd5fca/AndroidManifest.xml:4:5-73
+MERGED from [com.android.support:transition:25.0.1] /home/mak/.gradle/caches/transforms-1/files-1.1/transition-25.0.1.aar/fce543d0925df505e2740465f7d72ec4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.0.1] /home/mak/.gradle/caches/transforms-1/files-1.1/transition-25.0.1.aar/fce543d0925df505e2740465f7d72ec4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.0.2.aar/1d0fdc3463ce11e387d1db670f9efbe2/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.0.2.aar/1d0fdc3463ce11e387d1db670f9efbe2/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-common:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.0.2.aar/b35e8cb62ec77797631425e71c3554ac/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-common:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.0.2.aar/b35e8cb62ec77797631425e71c3554ac/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-module:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-auth-module-9.0.2.aar/be05458063780d911ad7ba64d002ffd3/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-module:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-auth-module-9.0.2.aar/be05458063780d911ad7ba64d002ffd3/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-core-9.0.2.aar/b240bdbc4d9c0b1aa8a03637d172626d/AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-core:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-core-9.0.2.aar/b240bdbc4d9c0b1aa8a03637d172626d/AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.2.aar/6eff673454795d2a6083084b615e0f43/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.2.aar/6eff673454795d2a6083084b615e0f43/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.0.2.aar/43ade91cb4fa25daf792973890891c46/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.0.2.aar/43ade91cb4fa25daf792973890891c46/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-base-9.0.2.aar/189be8d51bc23e5b422d1b71b864b9f6/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-base-9.0.2.aar/189be8d51bc23e5b422d1b71b864b9f6/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-common-9.0.2.aar/2150a1abec861bfd7fc9d33dc81f1088/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-common-9.0.2.aar/2150a1abec861bfd7fc9d33dc81f1088/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.0.2.aar/7ab17582614d7ba2c2fd90e14f24891d/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.0.2.aar/7ab17582614d7ba2c2fd90e14f24891d/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.0.2.aar/21980bfaab764d8de6e40053348176a0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.0.2.aar/21980bfaab764d8de6e40053348176a0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/63b52c005f3f3c5984e72ab1cc3c0220/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/63b52c005f3f3c5984e72ab1cc3c0220/AndroidManifest.xml:21:5-23:54
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:21:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:21:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.6.16.aar/14a5295e1a1c5705d8a2f899e8366583/AndroidManifest.xml:10:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.6.16.aar/14a5295e1a1c5705d8a2f899e8366583/AndroidManifest.xml:10:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-core-2.6.16.aar/7a6f886bf5622964e7799649a57b7412/AndroidManifest.xml:4:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-core-2.6.16.aar/7a6f886bf5622964e7799649a57b7412/AndroidManifest.xml:4:1-69
+MERGED from [com.android.support:recyclerview-v7:25.0.1] /home/mak/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.0.1.aar/72da9ac415b0bd786e531df4c4471ec3/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.0.1] /home/mak/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.0.1.aar/72da9ac415b0bd786e531df4c4471ec3/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/1e500fc08893743f091bcf516f9160cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/1e500fc08893743f091bcf516f9160cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/1a1999c14220f404f9c5fd365099f19a/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/1a1999c14220f404f9c5fd365099f19a/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/761f759b8458cc4103f5e0e16ad2c37f/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/761f759b8458cc4103f5e0e16ad2c37f/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/7ae7f2297a7e8da0a5699e63244b83d1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/7ae7f2297a7e8da0a5699e63244b83d1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/e432ee1d33ead6a4278b6fc4bec5c8d1/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/e432ee1d33ead6a4278b6fc4bec5c8d1/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/b9c6b770167d4c6168518cdaf2237b18/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/b9c6b770167d4c6168518cdaf2237b18/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/60dff3e19a2733def9c537e6009399ca/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/60dff3e19a2733def9c537e6009399ca/AndroidManifest.xml:21:5-23:58
+INJECTED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml
+INJECTED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.0.1] /home/mak/.gradle/caches/transforms-1/files-1.1/design-25.0.1.aar/5915f843b584ccc48d19f602004ecab0/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml
+		ADDED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mak/Downloads/AppInsights/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08ccfe20ad9cb42f823780477a02d812/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/63b52c005f3f3c5984e72ab1cc3c0220/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/63b52c005f3f3c5984e72ab1cc3c0220/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/1e500fc08893743f091bcf516f9160cd/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/1e500fc08893743f091bcf516f9160cd/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/1a1999c14220f404f9c5fd365099f19a/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/1a1999c14220f404f9c5fd365099f19a/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/761f759b8458cc4103f5e0e16ad2c37f/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/761f759b8458cc4103f5e0e16ad2c37f/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/7ae7f2297a7e8da0a5699e63244b83d1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/7ae7f2297a7e8da0a5699e63244b83d1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/e432ee1d33ead6a4278b6fc4bec5c8d1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/e432ee1d33ead6a4278b6fc4bec5c8d1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/b9c6b770167d4c6168518cdaf2237b18/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/b9c6b770167d4c6168518cdaf2237b18/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/60dff3e19a2733def9c537e6009399ca/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/60dff3e19a2733def9c537e6009399ca/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08ccfe20ad9cb42f823780477a02d812/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/mak/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08ccfe20ad9cb42f823780477a02d812/AndroidManifest.xml:26:9-47
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.2.aar/6eff673454795d2a6083084b615e0f43/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.0.2.aar/43ade91cb4fa25daf792973890891c46/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.0.2.aar/43ade91cb4fa25daf792973890891c46/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:22:5-68
+MERGED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.2.aar/6eff673454795d2a6083084b615e0f43/AndroidManifest.xml:24:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.2.aar/6eff673454795d2a6083084b615e0f43/AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.0.2.aar/43ade91cb4fa25daf792973890891c46/AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.0.2.aar/43ade91cb4fa25daf792973890891c46/AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.2.aar/6eff673454795d2a6083084b615e0f43/AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.2.aar/6eff673454795d2a6083084b615e0f43/AndroidManifest.xml:29:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.2.aar/6eff673454795d2a6083084b615e0f43/AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.2.aar/6eff673454795d2a6083084b615e0f43/AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.2.aar/6eff673454795d2a6083084b615e0f43/AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.2.aar/6eff673454795d2a6083084b615e0f43/AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.0.2.aar/43ade91cb4fa25daf792973890891c46/AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.0.2.aar/43ade91cb4fa25daf792973890891c46/AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.2.aar/6eff673454795d2a6083084b615e0f43/AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.2.aar/6eff673454795d2a6083084b615e0f43/AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.0.2.aar/6eff673454795d2a6083084b615e0f43/AndroidManifest.xml:37:11-82
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-base-9.0.2.aar/189be8d51bc23e5b422d1b71b864b9f6/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-base-9.0.2.aar/189be8d51bc23e5b422d1b71b864b9f6/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-base-9.0.2.aar/189be8d51bc23e5b422d1b71b864b9f6/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-base-9.0.2.aar/189be8d51bc23e5b422d1b71b864b9f6/AndroidManifest.xml:20:19-85
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:23:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:25:17-71
+permission#com.example.alefmobitech.appinsights.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:28:22-76
+uses-permission#com.example.alefmobitech.appinsights.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:28:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:33:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:36:13-40:29
+intent-filter#com.example.alefmobitech.appinsights+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:36:13-40:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:38:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:39:27-58
+category#com.example.alefmobitech.appinsights
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:52:13-77
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:54:13-56:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:54:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:55:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.0.2.aar/4ddbc9af6e3f0161ba05c5a3a29b3ac7/AndroidManifest.xml:55:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-common-9.0.2.aar/2150a1abec861bfd7fc9d33dc81f1088/AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-common-9.0.2.aar/2150a1abec861bfd7fc9d33dc81f1088/AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-common-9.0.2.aar/2150a1abec861bfd7fc9d33dc81f1088/AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-common-9.0.2.aar/2150a1abec861bfd7fc9d33dc81f1088/AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/firebase-common-9.0.2.aar/2150a1abec861bfd7fc9d33dc81f1088/AndroidManifest.xml:9:13-58
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.0.2.aar/21980bfaab764d8de6e40053348176a0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.0.2.aar/21980bfaab764d8de6e40053348176a0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.0.2] /home/mak/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.0.2.aar/21980bfaab764d8de6e40053348176a0/AndroidManifest.xml:22:13-58
+activity#com.amazonaws.mobile.auth.userpools.ForgotPasswordActivity
+ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:9:10-10:21
+	android:screenOrientation
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:9:220-256
+	android:label
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:9:91-145
+	android:configChanges
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:9:20-90
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:9:146-219
+activity#com.amazonaws.mobile.auth.userpools.SignUpActivity
+ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:12:10-13:21
+	android:screenOrientation
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:12:204-240
+	android:label
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:12:91-137
+	android:configChanges
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:12:20-90
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:12:138-203
+activity#com.amazonaws.mobile.auth.userpools.MFAActivity
+ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:15:10-16:21
+	android:screenOrientation
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:15:197-233
+	android:label
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:15:91-133
+	android:configChanges
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:15:20-90
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:15:134-196
+activity#com.amazonaws.mobile.auth.userpools.SignUpConfirmActivity
+ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:18:10-19:21
+	android:screenOrientation
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:18:219-255
+	android:label
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:18:91-145
+	android:configChanges
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:18:20-90
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.6.16.aar/c46a2a4cb8a1aeecac91ad4473795b07/AndroidManifest.xml:18:146-218
+activity#com.amazonaws.mobile.auth.ui.SignInActivity
+ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.6.16.aar/14a5295e1a1c5705d8a2f899e8366583/AndroidManifest.xml:8:9-234
+	android:screenOrientation
+		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.6.16.aar/14a5295e1a1c5705d8a2f899e8366583/AndroidManifest.xml:8:196-232
+	android:label
+		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.6.16.aar/14a5295e1a1c5705d8a2f899e8366583/AndroidManifest.xml:8:90-136
+	android:configChanges
+		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.6.16.aar/14a5295e1a1c5705d8a2f899e8366583/AndroidManifest.xml:8:19-89
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.6.16] /home/mak/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.6.16.aar/14a5295e1a1c5705d8a2f899e8366583/AndroidManifest.xml:8:137-195

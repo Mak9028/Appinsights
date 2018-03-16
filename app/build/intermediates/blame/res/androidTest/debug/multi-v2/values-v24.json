@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/mak/Downloads/AppInsights/C:\\Users\\supriya\\Documents\\Project_Alef\\AppInsights\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v24\\values-v24.xml",
+            "map": [
+                {
+                    "source": "/home/mak/Downloads/AppInsights/C:\\Users\\supriya\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\8257043844ac2d585a9544577beb6fb3\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,212,347,416,480,549",
+                        "endColumns": "156,134,68,63,68,69",
+                        "endOffsets": "207,342,411,475,544,614"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/mak/Downloads/AppInsights/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v24/values-v24.xml",
+            "map": [
+                {
+                    "source": "/home/mak/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08ccfe20ad9cb42f823780477a02d812/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,212,347,416,480,549",
+                        "endColumns": "156,134,68,63,68,69",
+                        "endOffsets": "207,342,411,475,544,614"
+                    }
+                }
+            ]
+        }
+    ]
+}

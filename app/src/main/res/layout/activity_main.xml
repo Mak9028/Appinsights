@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative"
+    tools:context="com.example.alefmobitech.appinsights.MainActivity">
+
+
+
+
+    <TabHost
+        android:id="@+id/tabss"
+        android:layout_width="200dip"
+        android:layout_height="300dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:isScrollContainer="false"
+        android:nestedScrollingEnabled="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:verticalScrollbarPosition="defaultPosition">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:soundEffectsEnabled="false"
+                android:touchscreenBlocksFocus="false" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <RelativeLayout
+                    android:id="@+id/upload"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:isScrollContainer="false"
+                    android:orientation="vertical"
+                    android:scrollbarAlwaysDrawHorizontalTrack="false">
+
+                    <ScrollView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="135dp"
+                                android:layout_height="25dp"
+                                android:layout_alignLeft="@+id/textView"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignStart="@+id/textView"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="20dp"
+                                android:text="Status"
+                                android:textAlignment="inherit"
+                                android:textColor="?attr/colorAccent"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/status"
+                                android:layout_width="320dp"
+                                android:layout_height="35dp"
+                                android:layout_alignLeft="@+id/textView"
+                                android:layout_alignStart="@+id/textView"
+                                android:layout_below="@+id/textView4"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="14dp"
+                                android:text="Not Started"
+                                android:textAlignment="inherit"
+                                android:textColor="@color/jet"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/textView"
+                                android:layout_width="135dp"
+                                android:layout_height="25dp"
+                                android:layout_below="@+id/status"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_toLeftOf="@+id/progressBar"
+                                android:layout_toStartOf="@+id/progressBar"
+                                android:text="Files Read"
+                                android:textAlignment="inherit"
+                                android:textColor="?attr/colorAccent"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/show"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:layout_alignEnd="@+id/status"
+                                android:layout_alignLeft="@+id/textView"
+                                android:layout_alignRight="@+id/status"
+                                android:layout_alignStart="@+id/textView"
+                                android:layout_below="@+id/textView"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="12dp"
+                                android:text="0"
+                                android:textAlignment="inherit"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/jet"
+                                android:textSize="18dp" />
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="130dp"
+                                android:layout_height="25dp"
+                                android:layout_alignLeft="@+id/show"
+                                android:layout_alignStart="@+id/show"
+                                android:layout_below="@+id/show"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="12dp"
+                                android:text="Directory Path"
+                                android:textAlignment="inherit"
+                                android:textColor="?attr/colorAccent"
+                                android:textColorLink="@android:color/black"
+                                android:textIsSelectable="false"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/path"
+                                android:layout_width="320dp"
+                                android:layout_height="45dp"
+                                android:layout_alignLeft="@+id/textView3"
+                                android:layout_alignStart="@+id/textView3"
+                                android:layout_below="@+id/textView3"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="11dp"
+                                android:text=""
+                                android:textAlignment="inherit"
+                                android:textColor="@color/jet"
+                                android:textIsSelectable="false"
+                                android:textSize="18sp" />
+
+                            <ProgressBar
+                                android:id="@+id/progressBar"
+                                style="?android:attr/progressBarStyle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/path"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="23dp"
+                                android:indeterminate="false" />
+
+                            <Button
+                                android:id="@+id/add"
+                                android:layout_width="323dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignEnd="@+id/status"
+                                android:layout_alignLeft="@+id/textView"
+                                android:layout_alignRight="@+id/status"
+                                android:layout_alignStart="@+id/textView"
+                                android:layout_below="@+id/progressBar"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="31dp"
+                                android:background="?attr/colorAccent"
+                                android:onClick="addButton"
+                                android:text="Upload"
+                                android:textColor="?attr/colorBackgroundFloating"
+                                android:textSize="15sp" />
+
+
+
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+
+                    android:id="@+id/DashBoard"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:isScrollContainer="false"
+                    android:orientation="vertical">
+
+                    <WebView
+                        android:id="@+id/deshviwe"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:animationCache="true" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/Cofig"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:isScrollContainer="false"
+                    android:orientation="vertical">
+
+                    <ScrollView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:fitsSystemWindows="true">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="56dp"
+                            android:paddingLeft="24dp"
+                            android:paddingRight="24dp">
+
+
+                            <!-- Server Name -->
+                            <android.support.design.widget.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="8dp">
+                                <EditText android:id="@+id/server_name"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="textPersonName"
+                                    android:hint="Server Name" />
+                            </android.support.design.widget.TextInputLayout>
+
+                            <!-- User Name -->
+                            <android.support.design.widget.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="8dp">
+                                <EditText android:id="@+id/uid"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="textPostalAddress"
+                                    android:hint="User Name" />
+                            </android.support.design.widget.TextInputLayout>
+
+
+
+                            <!--  Password -->
+                            <android.support.design.widget.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="8dp">
+                                <EditText android:id="@+id/pass"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="textPassword"
+                                    android:hint="Password" />
+                            </android.support.design.widget.TextInputLayout>
+
+
+                            <!-- Database Name -->
+                            <android.support.design.widget.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="8dp">
+                                <EditText android:id="@+id/db_name"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="text"
+                                    android:hint="DataBase Name " />
+                            </android.support.design.widget.TextInputLayout>
+
+                            <!-- Port Number -->
+                            <android.support.design.widget.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="8dp">
+                                <EditText android:id="@+id/port_number"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="number"
+                                    android:hint="Port Number"/>
+                            </android.support.design.widget.TextInputLayout>
+
+                            <!-- Path Set n show dir function-->
+                            <android.support.design.widget.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="8dp">
+                                <EditText android:id="@+id/path_edit"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="text"
+                                    android:hint="Browse Path"
+                                    android:onClick="showdir"/>
+                            </android.support.design.widget.TextInputLayout>
+
+                            <!-- Signup Button -->
+                            <android.support.v7.widget.AppCompatButton
+                                android:id="@+id/addtodb"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="24dp"
+                                android:padding="12dp"
+                                android:text="Save"
+                                android:background="?attr/colorAccent"
+                                android:onClick="addtodb"
+                                android:textColor="?attr/colorBackgroundFloating"
+                                android:textSize="15sp"
+                                />
+
+                            <android.support.v7.widget.AppCompatButton
+                                android:id="@+id/update"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="24dp"
+                                android:padding="12dp"
+                                android:text="Save"
+                                android:background="?attr/colorAccent"
+                                android:onClick="updatetodb"
+                                android:textColor="?attr/colorBackgroundFloating"
+                                android:textSize="15sp"
+                                />
+
+                            <TextView android:id="@+id/link_login"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="24dp"
+                                android:text="Already a member? Login"
+                                android:gravity="center"
+                                android:textSize="16dip"
+                                android:visibility="gone"/>
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                </RelativeLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</RelativeLayout>

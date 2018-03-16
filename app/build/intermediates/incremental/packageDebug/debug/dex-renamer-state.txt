@@ -1,0 +1,4 @@
+#Wed Jan 31 13:04:32 IST 2018
+base.0=C\:\\Users\\supriya\\Documents\\Project_Alef\\AppInsights\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
